@@ -1,0 +1,495 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1540px)
+{
+	
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1480px)
+{
+	.top_nav_left{
+		margin-left: 10%;
+	}
+	.email{
+		margin-left: -5%;
+	}
+	.logo_container h3{
+		margin-left: 20%;
+	}
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+ 
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+
+	.logo_container a
+	{
+		font-size: 12px;
+	}
+	.logo_container a h3{
+		margin-left: 100%;
+		margin-bottom: 50px;
+	}
+	h1{font-size: 48px;}
+	h2{font-size: 36px;}
+	.top_nav
+	{
+		display: none;
+	}
+	.navbar_menu
+	{
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.image{
+		height: 70vh ;
+		width: 100vw;
+	}
+	.image h1{
+		text-align: center;
+	}
+	.container p{
+		font-size: 15px;
+	}
+	
+	#container{
+		top: 850px;
+	}
+	#part1{
+		height: 450px;
+	}
+	#companyinfo{
+		width: 20%;
+	}
+	#sitelink{
+		font-size: 30px;
+	}
+	#txt1, #txt2, #txt3, #txt4, #txt5{
+		font-size: 17px;
+	}
+	#txt5, .social{
+		position: relative;
+		top: -5px;
+	}
+	#part2{
+		top: 0px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.logo_container a
+	{
+		font-size: 12px;
+	}
+	.logo_container a h3{
+		margin-left: 100%;
+	}
+	h1{font-size: 36px;}
+	h2{font-size: 24px;}
+	h6{font-size: 12px;}
+	
+	#part1{
+		height: 500px;
+		top: 200px;
+	}
+	#companyinfo{
+		width: 20%;
+	}
+	#sitelink{
+		font-size: 30px;
+	}
+	#txt1, #txt2, #txt3, #txt4, #txt5{
+		font-size: 17px;
+	}
+	#txt5, .social{
+		position: relative;
+		top: -5px;
+	}
+	#companyinfo{
+		/* width: 14%;
+		height: 280px;
+		position: relative;
+		top: 30px; */
+		left: 5%;
+	}
+	#explore{
+		width: 14%;
+		height: 280px;
+		position: relative;
+		top: -235px;
+		left: 30%;
+	}
+	#visit{
+		width: 14%;
+		height: 280px;
+		position: relative;
+		top: -515px;
+		left: 42%;
+	}
+	#legal{
+		width: 14%;
+		height: 280px;
+		position: relative;
+		top: -800px;
+		left: 60%;
+	}
+	#subscribe{
+		position: relative;
+		top: -1080px;
+		left: 81%;
+		width: 14%;
+		height: 280px;
+	}
+	#part2{
+		top: 150px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	.logo_container a
+	{
+		font-size: 12px;
+	}
+	.logo_container a h3{
+		margin-left: 100%;
+	}
+	.navbar_menu
+	{
+		display: none;
+	}
+	.hamburger_menu
+	{
+		right: -100%;
+		width: 100%;
+	}
+	
+	#part1{
+		height: 750px;
+		top: 190px;
+	}
+	#companyinfo{
+		width: 85%;
+		margin-bottom: 20px;
+	}
+	#sitelink{
+		font-size: 30px;
+	}
+	#txt1, #txt2, #txt3, #txt4, #txt5{
+		font-size: 17px;
+	}
+	#txt5, .social{
+		position: relative;
+		top: -5px;
+	}
+	#companyinfo{
+		/* width: 14%;
+		height: 280px;
+		position: relative;
+		top: 30px; */
+		left: 7%;
+	}
+	#explore{
+		width: 14%;
+		height: 280px;
+		position: relative;
+		top: 90px;
+		left: 7%;
+	}
+	#visit{
+		width: 40%;
+		height: 280px;
+		position: relative;
+		top: -415px;
+		left: 7%;
+	}
+	#legal{
+		width: 14%;
+		height: 120px;
+		position: relative;
+		top: -270px;
+		left: 7%;
+	}
+	#subscribe{
+		position: relative;
+		top: -810px;
+		left: 60%;
+		width: 44%;
+		height: 80px;
+	}
+	#part2{
+		top: 170px;
+		text-align: center;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	.logo_container a
+	{
+		font-size: 20px;
+	}
+	.logo_container a h3{
+
+		margin-left: 120%;
+		font-size: larger;
+		margin-bottom: 18%;
+	}
+	.hamburger_container
+	{
+		margin-left: 25px;
+	}
+	.hamburger_container i
+	{
+		font-size: 16px;
+	}
+	.hamburger_close
+	{
+		top: 14px;
+		right: 4px;
+	}
+	.hamburger_close i
+	{
+		font-size: 20px;
+	}
+	.hamburger_menu_content
+	{
+		padding-right: 15px;
+		padding-top: 70px;
+	}
+	.menu_item
+	{
+		border-bottom-color: rgba(181, 174, 196, 0.5);
+	}
+	.menu_item > a
+	{
+		font-size: 12px;
+		line-height: 35px;
+		height: 35px;
+	}
+	.menu_selection li a
+	{
+		font-size: 12px;
+		line-height: 35px;
+		height: 35px;
+	}
+	.navbar
+	{
+		height: 70px;
+	}
+	.navbar_user li a
+	{
+		width: 30px;
+		height: 30px;
+		font-size: 12px;
+	}	
+	.image h1{
+		font-size: 30px;
+		text-align: center;
+		max-width: 400px ;
+	}
+	.container p{
+		font-size: 12px;
+		max-width: 370px;
+
+	}
+	
+	#container{
+		top: 880px;
+	}
+	#part1{
+		height: 750px;
+	}
+	#companyinfo{
+		width: 85%;
+		margin-bottom: 20px;
+	}
+	#sitelink{
+		font-size: 30px;
+	}
+	#txt1, #txt2, #txt3, #txt4, #txt5{
+		font-size: 17px;
+	}
+	#txt5, .social{
+		position: relative;
+		top: -5px;
+	}
+	#companyinfo{
+		/* width: 14%;
+		height: 280px;
+		position: relative;
+		top: 30px; */
+		left: 7%;
+	}
+	#explore{
+		width: 14%;
+		height: 280px;
+		position: relative;
+		top: 125px;
+		left: 7%;
+	}
+	#visit{
+		width: 50%;
+		height: 280px;
+		position: relative;
+		top: -390px;
+		left: 7%;
+	}
+	#legal{
+		width: 14%;
+		height: 120px;
+		position: relative;
+		top: -250px;
+		left: 7%;
+	}
+	#subscribe{
+		position: relative;
+		top: -785px;
+		left: 60%;
+		width: 44%;
+		height: 80px;
+	}
+	#part2{
+		top: 180px;
+		text-align: center;
+	}
+
+	
+	
+	
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+}	

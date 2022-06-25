@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Home
+	3.1 Logo
+	3.2 Main Slider
+	3.3 Hamburger menu
+4. Banner
+5. 
+6. Deal of the week
+7. Best 
+8. Benefit
+9. Blogs
+10. Footer
+
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+
+
+/* body */
+
+.image img{
+    height: 70vh;
+    width: 100vw;
+}
+.image h1{
+    text-align: center;
+}
+.container p{
+    font-size: medium;
+    color: black;
+    text-align: justify;
+
+}
